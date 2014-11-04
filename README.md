@@ -7,7 +7,7 @@ linux命令源码注释
 
     编译步骤：
     1、将coreutils-5.0.tar源码包解压
-        $ar -xvf coreutils-5.0.tar
+        $tar -xvf coreutils-5.0.tar
     2、进入coreutils-5.0目录
         $cd coreutils-5.0
         （请阅读README和INSTALL文件）
@@ -17,3 +17,6 @@ linux命令源码注释
     5、在此目录下执行make，或者进入src目录执行make
         $make 或者 $cd src; make
     6、现在可以用gdb对每一个命令进行调试了
+
+
+将你的工作发布出来吧！
