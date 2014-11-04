@@ -1238,7 +1238,7 @@ main (int argc, char **argv)
   /* When using -R, initialize a data structure we'll use to
      detect any directory cycles.  */
   /* 遍历文件层次结构时，链接文件可能会在文件层次结构
-   * 中产生循环，为避免循环，需要一个数据结构：dev_ino_set，
+   * 中产生循环，为避免循环，需要一个数据结构：active_dir_set，
    * 为快速查找相同的节点，采用哈希表*/
   if (recursive)
     {
