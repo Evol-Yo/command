@@ -13,7 +13,7 @@ linux命令源码注释
         （请阅读README和INSTALL文件）
     3、执行./configure
         $./configure
-    4、修改Makefile文件，将CFLAGS = -g -O2改为CFLAGS = -g,或者按同样方式修改crc/Makefile
+    4、修改Makefile文件，将CFLAGS = -g -O2改为CFLAGS = -g,或者按同样方式修改src/Makefile
     5、在此目录下执行make，或者进入src目录执行make
         $make 或者 $cd src; make
     6、现在可以用gdb对每一个命令进行调试了
